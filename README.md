@@ -52,14 +52,16 @@ A Discord bot for distributing "What's Goodie? TCG 2025" game cards to users bas
 3. Enable the following Privileged Gateway Intents:
    - Message Content Intent
    - Server Members Intent
-4. Generate an invitation URL with the following permissions:
-   - Read Messages/View Channels
+4. Generate an invitation URL with the following permission:
+   - Bot
+5. Invite the bot to your server using the generated URL
+6. Add the bot to the game channel with the following permissions:
+   - Read Message History
    - Send Messages
    - Manage Channels
    - Manage Threads
    - Read Message History
    - Attach Files
-5. Invite the bot to your server using the generated URL
 
 ## Running the Bot
 

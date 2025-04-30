@@ -9,13 +9,13 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
-
-#  #  #  #  #  #   #  #  #  #  #   #  #  #  #  #   #  #  #  #  #   #  #  #  #  # 
+#  #  #  #  #  #   #   #  #  #  #   #  #  #  #  #   #  #  #  #  #   #  #  #  #  # 
 # Channel/Mode settings
 # This is for the optional temp channels to dispense images privately.
 PRIVATE_CHANNEL_MODE = False  # True = create private channel, False = send in same channel
 CHANNEL_TIMEOUT_MINUTES = 10 # <--------------------------------
 ADMIN_ROLE_ID = 1085017887728750634 # <--------------------------------
+GAME_CHANNEL_ID = 1367200270882312202 # <--------------------------------
 
 # Embed message variations (for the direct embed mode)
 # These will be randomly selected when sending embeds

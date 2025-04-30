@@ -379,6 +379,9 @@ async def on_message(message):
             print(f"Error while deleting channel: {e}")
             print(traceback.format_exc())
     
+    if config.GAME_CHANNEL_ID and message.channel.id != config.GAME_CHANNEL_ID:
+        return
+
     # Process normal commands
     await bot.process_commands(message)
     
