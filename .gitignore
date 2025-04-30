@@ -1,0 +1,6 @@
+images/*.png
+logs/*.log
+.env
+user_data.json
+
+__pycache__/*
